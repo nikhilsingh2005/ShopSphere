@@ -1,9 +1,9 @@
-# 🛒 EcomHub
+# 🛒 ShopSphere
 
 A full-featured e-commerce web application designed for seamless online shopping and admin management.
 
 ## 📌 Project Title and Short Description
-**EcomHub** - A Spring Boot-based e-commerce backend API supporting key features like user management, product handling, cart functionality, and order processing.
+**ShopSphere** - A Spring Boot-based e-commerce backend API supporting key features like user management, product handling, cart functionality, and order processing.
 
 ## 🚀 Features
 ### User Management
@@ -43,7 +43,7 @@ A full-featured e-commerce web application designed for seamless online shopping
 
 ## 📂 Project Structure
 ```
-ecomhub/
+sb-ecommerce/
 ├── src/
 │ ├── main/
 │ │ ├── java/com/ecommerce/project/
@@ -74,7 +74,7 @@ ecomhub/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/nikhilsingh2005/ecomhub.git
+git clone https://github.com/nikhilsingh2005/ShopSphere
 cd ecomhub
 ```
 
@@ -97,8 +97,6 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 mvn clean install
 mvn spring-boot:run
 ```
-
-Access the API at: `http://localhost:8080/api/`
 
 ## 📬 API Documentation
 - Postman collection included in `postman/ecom_api_collection.json`

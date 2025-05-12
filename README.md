@@ -6,11 +6,32 @@ A full-featured e-commerce web application designed for seamless online shopping
 **EcomHub** - A Spring Boot-based e-commerce backend API supporting key features like user management, product handling, cart functionality, and order processing.
 
 ## 🚀 Features
-- User registration and authentication (JWT)
-- Product listing and management (admin only)
-- Shopping cart and address management
-- Order placement with payment gateway integration
-- Admin dashboard features
+### User Management
+- **Register and log in as a user.**
+- **User authentication** using JWT (JSON Web Tokens).
+- **View and manage user profile** and **addresses**.
+
+### Product Management
+- **Add, update, delete**, and **view products**.
+- **Search products** by name, category, etc.
+- **Display product details** including image, description, and price.
+
+### Order Management
+- **Place orders** with the selected products.
+- **View and track orders**.
+- **Manage order status** and order history.
+
+### Payment Integration
+- **Integrate various payment methods** for order completion.
+- Handle **payment status and responses** (e.g., success, failure).
+
+### Address Management
+- **Add, update, delete**, and **view addresses**.
+- **Link addresses** to user accounts for orders.
+
+### Admin Features
+- **Manage users, orders, and products**.
+- **View sales and product analytics**.
 
 ## 🧰 Tech Stack / Technologies Used
 - **Language**: Java 17+
@@ -24,12 +45,22 @@ A full-featured e-commerce web application designed for seamless online shopping
 ```
 ecomhub/
 ├── src/
-│   ├── main/
-│   │   ├── java/com/ecommerce/project/
-│   │   ├── resources/
-│   │       └── application.properties
+│ ├── main/
+│ │ ├── java/com/ecommerce/project/
+│ │ │ ├── config/
+│ │ │ ├── controller/
+│ │ │ ├── exceptions/
+│ │ │ ├── model/
+│ │ │ ├── payload/
+│ │ │ ├── repositories/
+│ │ │ ├── security/
+│ │ │ ├── service/
+│ │ │ ├── util/
+│ │ │ └── SbEcommerceApplication.java
+│ │ ├── resources/
+│ │ │ └── application.properties
 ├── postman/
-│   └── ecom_api_collection.json
+│ └── ecom_api_collection.json
 ├── pom.xml
 └── README.md
 ```
